@@ -1,7 +1,20 @@
 @media screen and (max-width: 768px) {
-    
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 @media screen and (max-width: 576px) {
+    nav {
+        flex-direction: row;
+    }
     
+    .hamburger-menu {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+    }
 }

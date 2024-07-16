@@ -1,28 +1,78 @@
 /* Poppins font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
-/* Shared styles start */
+/* Shared start */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #F8F9FA;
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
 }
-/* Shared styles end */
 
+.fit-screen {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-/* Header style start */
-/* Header style end */
+.flex {
+  display: flex;
+}
+/* Shared end */
 
+/* Header start */
 
-/* Main style end */
-/* Main style start */
+/* NavBar start */
+.nav-container {
+  background: #2a303c;
+}
 
+nav {
+  border: 2px solid red;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  color: #fbfbfc;
+}
 
-/* Footer style start */
-/* Footer style end */
+nav ul {
+  gap: 30px;
+}
+
+nav li {
+  list-style: none;
+  background: rgba(0, 0, 0, 0.301);
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fbfbfc;
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: 600;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.hamburger-menu {
+    display: none;
+    font-size: 2rem;
+}
+/* NavBa end */
+
+/* Header end */
+
+/* Main start */
+/* Main end */
+
+/* Footer start */
+/* Footer end */
