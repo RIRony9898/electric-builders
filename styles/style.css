@@ -27,11 +27,10 @@ body {
 
 /* NavBar start */
 .nav-container {
-  background: #2a303c;
+  background: #475569;
 }
 
 nav {
-  border: 2px solid red;
   justify-content: space-between;
   align-items: center;
   padding: 30px 20px;
@@ -64,14 +63,84 @@ nav a {
 }
 
 .hamburger-menu {
-    display: none;
-    font-size: 2rem;
+  display: none;
+  font-size: 2rem;
 }
 /* NavBa end */
 
 /* Header end */
 
 /* Main start */
+
+main {
+  border: 2px solid red;
+  background: #2a303c;
+}
+
+/* Banner section start  */
+.banner {
+    border: 2px solid green;
+    gap: 20px;
+    min-height: 500px;
+}
+.banner-img {
+    width: 50%;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.5046393557422969) 0%, rgba(0,0,0,0.5046393557422969) 100%), url(../assets/images/electric-image.jpg);
+    background-size: cover;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-off-btn {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 14px;
+    color: #fbfbfc;
+    background-color: #5014b8d5;
+    border: none;
+    padding: 30px 40px;
+    border-radius: 8px;
+}
+
+#fifty {
+    color: red;
+}
+
+.banner-contents {
+    border: 2px solid blue;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgb(166, 173, 186);
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.banner-description {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.banner-btn {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 14px;
+    color: #fbfbfc;
+    background-color: #5014B8;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+/* Banner section end */
+
 /* Main end */
 
 /* Footer start */
