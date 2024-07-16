@@ -21,6 +21,19 @@ body {
 .flex {
   display: flex;
 }
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.section-title {
+    color: white;
+    text-align: center;
+    background-color: #47556998;
+    padding: 16px;
+    font-weight: 600;
+    font-size: 2rem;
+}
 /* Shared end */
 
 /* Header start */
@@ -72,20 +85,21 @@ nav a {
 
 /* Main start */
 
-main {
-  border: 2px solid red;
+body {
   background: #2a303c;
 }
 
 /* Banner section start  */
 .banner {
-    border: 2px solid green;
     gap: 20px;
     min-height: 500px;
+    margin-top: 30px;
+    background: #0000002c;
+    border-radius: 12px;
 }
 .banner-img {
     width: 50%;
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.5046393557422969) 0%, rgba(0,0,0,0.5046393557422969) 100%), url(../assets/images/electric-image.jpg);
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.5046393557422969) 0%, rgba(0,0,0,0.5046393557422969) 100%), url(../assets/images/banner-1.jpg);
     background-size: cover;
     border-radius: 8px;
     justify-content: center;
@@ -108,7 +122,6 @@ main {
 }
 
 .banner-contents {
-    border: 2px solid blue;
     width: 50%;
     flex-direction: column;
     justify-content: center;
@@ -140,6 +153,44 @@ main {
     border-radius: 8px;
 }
 /* Banner section end */
+
+/* Choose us section start */
+.choose-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+.choose-card {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .384);
+    background-image: linear-gradient(135deg, rgb(255 255 255 / var(--glass-opacity, 30%)) 0, transparent 100%), linear-gradient(var(--glass-reflex-degree, 100deg), rgb(255 255 255 / var(--glass-reflex-opacity, 10%)) 25%, transparent 25%);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.choose-card img {
+    height: 130px;
+    width: 130px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 20px;
+}
+.choose-card-name{
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.choose-card-description {
+    color: #a5adb8;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Choose us section end */
 
 /* Main end */
 
